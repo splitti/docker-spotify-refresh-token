@@ -1,7 +1,7 @@
 #####
 # Stage 1: Build ionic
 #####
-FROM node:16
+FROM node:16 as build
 
 WORKDIR /docker-spotify-refresh-token-main
 
